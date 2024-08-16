@@ -13,7 +13,7 @@ I used Apache and added the following to /etc/apache/apache.conf, in the <I>Dire
 Header always set Access-Control-Allow-Origin %{AccessControlAllowOrigin}e env=AccessControlAllowOrigin`
 
 ## Operation
-1. Call via https://server.com/adserver/adserver.php
+1. Call https://server.com/adserver/adserver.php
 2. Upon receiving the request, the php script will randomly select a creative. Adjust possible creatives in creatives[] in *adserver.php*.
 3. The browser is redirected to a creative's VAST response (XML format) via a HTTP 
 
