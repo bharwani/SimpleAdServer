@@ -10,7 +10,7 @@ $creatives = [
     'sugar.xml'
 ];
 
-$size = count($addresses);
+$size = count(creatives);
 $randomIndex = rand(0, $size - 1);
 $randomUrl = $creatives[$randomIndex];
 
