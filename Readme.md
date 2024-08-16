@@ -6,7 +6,8 @@ Written in PHP.
 ## Setup
 System requirement: 
 * Web server with PHP support
-NOTE: CORS should also be enabled. 
+
+**NOTE:** CORS should also be enabled. 
 
 I used Apache and added the following to /etc/apache/apache.conf, in the <I>Directory</i> directive:
 `SetEnvIf Origin "^http(s)?://.+$" AccessControlAllowOrigin=$0
